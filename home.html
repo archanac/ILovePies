@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>I <3 Pies</title>
+
+ <style type="text/css">
+ 
+	#backdrop {
+		position: absolute;
+		background-position: center;
+		z-index: 1;
+	}
+
+	#logo {
+		position: absolute;
+		z-index: 2;
+	}
+	
+ .button_style {
+	-moz-box-shadow:inset 0px 0px 7px -27px #fcf7fc;
+	-webkit-box-shadow:inset 0px 0px 7px -27px #fcf7fc;
+	box-shadow:inset 0px 0px 7px -27px #fcf7fc;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dbccdb), color-stop(1, #f7343b) );
+	background:-moz-linear-gradient( center top, #dbccdb 5%, #f7343b 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dbccdb', endColorstr='#f7343b');
+	background-color:#dbccdb;
+	-moz-border-radius:12px;
+	-webkit-border-radius:12px;
+	border-radius:12px;
+	border:1px solid #c4b2c4;
+	display:inline-block;
+	color:#2e262e;
+	font-family:Comic Sans MS;
+	font-size:15px;
+	font-weight:bold;
+	padding:5px 38px;
+	text-decoration:none;
+	text-shadow:0px 0px 4px #ffffff;
+}.button_style:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f7343b), color-stop(1, #dbccdb) );
+	background:-moz-linear-gradient( center top, #f7343b 5%, #dbccdb 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f7343b', endColorstr='#dbccdb');
+	background-color:#f7343b;
+}.button_style:active {
+	position:relative;
+	top:1px;
+}
+ 
+/*.button_style {
+	width:250px; 
+	-moz-box-shadow:inset 0px 0px 6px -6px #f7f7f7;
+	-webkit-box-shadow:inset 0px 0px 6px -6px #f7f7f7;
+	box-shadow:inset 0px 0px 6px -6px #f7f7f7;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fffafa), color-stop(1, #fa0303) );
+	background:-moz-linear-gradient( center top, #fffafa 5%, #fa0303 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fffafa', endColorstr='#fa0303');
+	background-color:#fffafa;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	display:inline-block;
+	color:#1c1618;
+	font-family:arial;
+	font-size:24px;
+	font-weight:bold;
+	padding:8px 63px;
+	text-decoration:none;
+	text-shadow:2px -2px 0px #f0e4f0;
+}.button_style:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fa0303), color-stop(1, #fffafa) );
+	background:-moz-linear-gradient( center top, #fa0303 5%, #fffafa 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fa0303', endColorstr='#fffafa');
+	background-color:#fa0303;
+}.button_style:active {
+	position: absolute;
+}
+
+
+}*/
+.button_position{
+	position: absolute; 
+	top: 500px; 
+	left: 50px; 
+	width: 200px; 
+	height: 200px;	
+
+ </style>
+
+
+</head>
+
+<body>
+
+<div id="backdrop">
+	<img src="mod.png" alt="" height="300" width="700">
+</div>
+
+<!--<div id="logo">
+	<img src="logo.jpg" alt="" height="250" width="250">
+</div>-->
+
+
+<span class="button_position" >
+
+<form action="about_us.html" method="post" enctype="application/x-www-form-urlencoded" name="about_us" target="_self">
+ <input name="about_us" type="submit" value="About Us" class="button_style"/>
+</form>
+
+<form action="pie_story.html" method="post" enctype="application/x-www-form-urlencoded" name="pie_story" target="_self">
+<input name="pie_story" type="submit" value="A Pie Story"  class="button_style"/>
+</form>
+
+<form action="products.html" method="post" enctype="application/x-www-form-urlencoded" name="products" target="_self">
+<input name="products" type="submit" value="Products" class="button_style"/>
+</form>
+
+<form action="special_order.html" method="post" enctype="application/x-www-form-urlencoded" name="special_order" target="_self">
+<input name="special_orders" type="submit" value="Special Orders" class="button_style"/>
+</form>
+
+<form action="contact.html" method="post" enctype="application/x-www-form-urlencoded" name="contact" target="_self">
+<input name="contact_us" type="submit" value="Contact Us" class="button_style"/>
+</form>
+
+</span>
+
+</body>
+</html>
